@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishab Ajeyakumar Badaseshi | Software Engineer · Embedded Systems & IoT · AI/ML</title>
+  <meta name="description" content="Portfolio of Rishab Ajeyakumar Badaseshi - Software Engineer specializing in Embedded Systems, IoT and AI/ML." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.png" type="image/x-icon" />
+</head>
+<body>
+
+<!-- ===== Header / Nav ===== -->
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="#hero" class="logo">RB<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg id="iconSun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg id="iconMoon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Hero ===== -->
+<section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow reveal">Hi, I'm</p>
+        <h1 class="hero-name reveal">Rishab Ajeyakumar Badaseshi</h1>
+        <p class="hero-tagline reveal">Software Engineer&nbsp;·&nbsp;Embedded Systems &amp; IoT&nbsp;·&nbsp;AI/ML</p>
+        <p class="hero-desc reveal">
+          I build end-to-end systems that span low-level firmware, cloud-connected IoT platforms,
+          and machine learning pipelines — backed by 8 patents and an IEEE publication.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials reveal">
+          <a href="mailto:badaseshi.rishab@gmail.com" aria-label="Email">Email</a>
+          <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" aria-label="GitHub" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="hero-photo-ring">
+          <img src="images/profile.jpg" alt="Portrait of Rishab Ajeyakumar Badaseshi" onerror="this.parentElement.classList.add('no-photo')" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-eyebrow reveal">About Me</p>
+      <h2 class="section-title reveal">Background &amp; focus</h2>
+      <div class="about-grid">
+        <p class="about-text reveal">
+          I'm a Software Engineer with an MSc in Embedded Systems &amp; IoT from Newcastle University, UK (Merit),
+          and a BTech in Electronics &amp; Computer Engineering from REVA University (CGPA 9.16/10). I work across
+          the stack - from low-level firmware on ESP32, ARM and RTOS platforms, to Python ML pipelines, cloud-connected
+          IoT systems, and data analytics dashboards. I currently teach embedded systems and C programming as an
+          Assistant Professor, and previously built predictive-maintenance and anomaly-detection pipelines for
+          live IoT sensor data as a freelance embedded software engineer.
+        </p>
+        <p class="about-text reveal">
+          My interests sit at the intersection of <strong>embedded systems, IoT, and applied machine learning</strong> -
+          I like taking a problem from raw sensor signal to a deployed, production-ready decision system. I'm the author
+          of 8 filed patents and one IEEE-published paper (ICAECC 2023), and I take a research-driven approach to
+          building reliable software.
+        </p>
+      </div>
+
+      <div class="about-stats reveal">
+        <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Patents Filed</span></div>
+        <div class="stat"><span class="stat-num">1</span><span class="stat-label">IEEE Publication</span></div>
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Major Projects</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-eyebrow reveal">Skills</p>
+      <h2 class="section-title reveal">Technical toolkit</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Languages</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">C</span><span class="tag">C++</span>
+            <span class="tag">Embedded C</span><span class="tag">SQL</span><span class="tag">VHDL / Verilog</span>
+            <span class="tag">Bash</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>ML &amp; Data</h3>
+          <div class="tag-row">
+            <span class="tag">scikit-learn</span><span class="tag">TensorFlow</span><span class="tag">NumPy</span>
+            <span class="tag">pandas</span><span class="tag">Power BI</span><span class="tag">PCA</span>
+            <span class="tag">SMOTE</span><span class="tag">GridSearchCV</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Embedded &amp; IoT</h3>
+          <div class="tag-row">
+            <span class="tag">ESP32</span><span class="tag">ARM Cortex</span><span class="tag">STM32</span>
+            <span class="tag">Raspberry Pi</span><span class="tag">FreeRTOS</span><span class="tag">FPGA (Altera DE1)</span>
+            <span class="tag">MQTT</span><span class="tag">PCB Design (Altium, EasyEDA)</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Security &amp; Comms</h3>
+          <div class="tag-row">
+            <span class="tag">OpenSSL</span><span class="tag">RSA-2048</span><span class="tag">UART</span>
+            <span class="tag">SPI</span><span class="tag">I2C</span><span class="tag">BLE</span>
+            <span class="tag">Wi-Fi</span><span class="tag">Linux Networking</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Tools</h3>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">Linux</span><span class="tag">VS Code</span>
+            <span class="tag">MATLAB</span><span class="tag">MS Office</span><span class="tag">Excel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-eyebrow reveal">Projects</p>
+      <h2 class="section-title reveal">Selected work</h2>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-tag">ESP32 · MQTT · Python · Random Forest</span>
+            <span class="project-date">Jun – Jul 2025</span>
+          </div>
+          <h3>IoT Smart Battery Monitoring &amp; Predictive Safety System</h3>
+          <p>
+            A cloud-connected IoT system tracking voltage, current, and temperature in real time, with MQTT
+            networking and dashboard visualisation for remote diagnostics. Uses a Random Forest model for
+            predictive maintenance - detecting overheating risk and triggering automated cooling and
+            emergency shutdown sequences.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-tag">Python · LSTM · scikit-learn · PCA · SMOTE</span>
+            <span class="project-date">Jan – Aug 2024</span>
+          </div>
+          <h3>Hand Movement Classification via sEMG &amp; ML (MSc Thesis)</h3>
+          <p>
+            Preprocessed 5,000+ sEMG signals, applying PCA for top-10 feature extraction and SMOTE to
+            balance a heavily imbalanced medical dataset. Trained and tuned LSTM (71%) and Random Forest
+            (86%) classifiers via GridSearchCV, evaluated with confusion matrices and F1 analysis.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-tag">OpenSSL · RSA-2048 · Linux · C</span>
+            <span class="project-date">Oct – Nov 2023</span>
+          </div>
+          <h3>Encrypted Data Transmission on Embedded Linux</h3>
+          <p>
+            Implemented RSA-2048 encryption/decryption on embedded Linux, securing 100+ test transfers
+            with zero packet loss. Optimised the file transfer protocol to cut latency by 30%, integrating
+            the Linux networking stack with OpenSSL for full data integrity.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Achievements / Certifications ===== -->
+  <section class="section section-alt" id="achievements">
+    <div class="container">
+      <p class="section-eyebrow reveal">Certifications &amp; Achievements</p>
+      <h2 class="section-title reveal">Recognition &amp; credentials</h2>
+
+      <div class="achv-grid">
+        <div class="achv-block reveal">
+          <h3>Certifications</h3>
+          <ul class="achv-list">
+            <li>Machine Learning (Basic to Advanced)</li>
+            <li>Introduction to Data Analytics</li>
+            <li>Build Your Own RTOS on ARM</li>
+            <li>PCB Design with Altium Designer</li>
+            <li>Allegro X PCB Editor</li>
+            <li>Google Project Management</li>
+            <li>Data Innovation Bootcamp</li>
+          </ul>
+        </div>
+        <div class="achv-block reveal">
+          <h3>Achievements</h3>
+          <ul class="achv-list">
+            <li>1st place - Aavishkar Mini Project (Camouflage Surveillance System)</li>
+            <li>₹6,000 KSCST research grant recipient</li>
+            <li>Published - IEEE ICAECC 2023 (doi: 10.1109/ICAECC59324.2023.10560310)</li>
+            <li>8 patents filed, spanning AI, IoT, security and embedded systems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-eyebrow reveal">Contact</p>
+      <h2 class="section-title reveal">Let's build something together</h2>
+      <p class="contact-intro reveal">
+        Open to embedded systems, IoT and AI/ML opportunities and collaborations. Reach out any time.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a class="contact-item" href="mailto:badaseshi.rishab@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">badaseshi.rishab@gmail.com</span>
+          </a>
+          <a class="contact-item" href="tel:+919481414766">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91-9481414766</span>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/rbadaseshi/" target="_blank" rel="noopener">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Rishab Ajeyakumar Badaseshi</span>
+          </a>
+          <a class="contact-item" href="https://github.com/BadaseshiRishab" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">BadaseshiRishab</span>
+          </a>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity" required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> Rishab Ajeyakumar Badaseshi</p>
+    <p>Built with HTML, CSS, and JavaScript</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
