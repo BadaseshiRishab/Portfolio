@@ -29,13 +29,14 @@
 
     <div class="header-actions">
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-        <svg id="iconSun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-        <svg id="iconMoon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg id="iconSun" class="theme-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg id="iconMoon" class="theme-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
       </button>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
+
   </div>
 </header>
 
@@ -81,7 +82,7 @@
       <p class="section-eyebrow reveal">About Me</p>
       <h2 class="section-title reveal">Background &amp; focus</h2>
       <div class="about-grid">
-        <p class="about-text reveal">
+        <p class="about-text reveal" style="text-align: justify;">
           I'm a Software Engineer with an MSc in Embedded Systems &amp; IoT from Newcastle University, UK (Merit),
           and a BTech in Electronics &amp; Computer Engineering from REVA University (CGPA 9.16/10). I work across
           the stack - from low-level firmware on ESP32, ARM and RTOS platforms, to Python ML pipelines, cloud-connected
@@ -89,7 +90,7 @@
           Assistant Professor, and previously built predictive-maintenance and anomaly-detection pipelines for
           live IoT sensor data as a freelance embedded software engineer.
         </p>
-        <p class="about-text reveal">
+        <p class="about-text reveal" style="text-align: justify;">
           My interests sit at the intersection of <strong>embedded systems, IoT, and applied machine learning</strong> -
           I like taking a problem from raw sensor signal to a deployed, production-ready decision system. I'm the author
           of 8 filed patents and one IEEE-published paper (ICAECC 2023), and I take a research-driven approach to
@@ -169,7 +170,7 @@
             <span class="project-date">Jun – Jul 2025</span>
           </div>
           <h3>IoT Smart Battery Monitoring &amp; Predictive Safety System</h3>
-          <p>
+          <p style="text-align: justify;">
             A cloud-connected IoT system tracking voltage, current, and temperature in real time, with MQTT
             networking and dashboard visualisation for remote diagnostics. Uses a Random Forest model for
             predictive maintenance - detecting overheating risk and triggering automated cooling and
@@ -186,7 +187,7 @@
             <span class="project-date">Jan – Aug 2024</span>
           </div>
           <h3>Hand Movement Classification via sEMG &amp; ML (MSc Thesis)</h3>
-          <p>
+          <p style="text-align: justify;">
             Preprocessed 5,000+ sEMG signals, applying PCA for top-10 feature extraction and SMOTE to
             balance a heavily imbalanced medical dataset. Trained and tuned LSTM (71%) and Random Forest
             (86%) classifiers via GridSearchCV, evaluated with confusion matrices and F1 analysis.
@@ -202,7 +203,7 @@
             <span class="project-date">Oct – Nov 2023</span>
           </div>
           <h3>Encrypted Data Transmission on Embedded Linux</h3>
-          <p>
+          <p style="text-align: justify;">
             Implemented RSA-2048 encryption/decryption on embedded Linux, securing 100+ test transfers
             with zero packet loss. Optimised the file transfer protocol to cut latency by 30%, integrating
             the Linux networking stack with OpenSSL for full data integrity.
